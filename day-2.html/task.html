@@ -1,0 +1,75 @@
+<html>
+<head>
+    
+    
+    <title>Login and Registration Page</title>
+    
+</head>
+<style>
+.container
+{
+float:left;width:50%;
+}
+.container1
+{
+float:right;width:50%;
+}
+</style>
+<body>
+    <div class="container">
+        
+            <h3>Login</h3>
+            
+                
+                    <label for="login-email">Email:</label>
+                    <input type="email" name="email"><br>
+               
+                    <label for="login-password">Password:</label>
+                    <input type="password" name="password"><br>
+                
+                    <label for="captcha">CAPTCHA:</label>
+                    <input type="text" name="captcha"><br>
+              
+                    <label for="otp">OTP:</label>
+                    <input type="text" name="otp"><br>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <form>
+        <div class="container1">
+            <h3>Register</h3>
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" ><br>
+                
+                    <label for ="email">Email:</label>
+                    <input type="email" name="email"><br>
+                
+                
+                    <label for="password">Password:</label>
+                    <input type="password" name="password"><br>
+                
+                    <label for="confirm-password">Confirm Password:</label>
+                    <input type="password" name="confirm-password"><br>
+              
+                    <label for="country">Choose Country:</label>
+                    <select id="country" name="country" >
+                        <option value="" disabled selected>Select Country</option>
+                        <option value="India">India</option>
+                        <option value="Canada">Canada</option>
+                        <option value="Italy">Italy</option>
+                        
+                    </select><br>
+           
+                    <label for="passport"> passport:</label><br>
+                    <input type="radio" id="register-passport-yes" name="register-passport" value="yes">
+                    <label for="register-passport-yes">Yes</label>
+                    <input type="radio" id="register-passport-no" name="register-passport" value="no">
+                    <label for="register-passport-no">No</label><br>
+                
+                <button type="submit">Register</button>
+            </form>
+        </div>
+    
+</body>
+</hhtml>
